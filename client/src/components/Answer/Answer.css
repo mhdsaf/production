@@ -1,0 +1,12 @@
+.input{
+    color: rgb(77, 77, 77);
+    border: 2px solid  rgb(224, 224, 224);
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+}
+.selected{
+    border-color: #F0716A;
+    color: #F0716A;
+}

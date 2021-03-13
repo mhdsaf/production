@@ -1,0 +1,19 @@
+.body_container{
+    display: flex; 
+    width: 100%;
+}
+.text_lg{
+    font-size: 24px;
+    color: #133C59;
+}
+.select_container{
+    padding: 5px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 1px 3px #f0f0f0;
+    border-radius: 2px;
+}
+@media(max-width: 767px){
+    .cont{
+        margin-top: 20px;
+    }
+}

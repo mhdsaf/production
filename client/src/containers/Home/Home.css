@@ -1,0 +1,230 @@
+body{
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+}
+.header_container{
+    display: inline-block; 
+    width: 100%;
+}
+.platform_name{
+    color: #007FEB;
+    font-weight: bold;
+    font-size: 20px;
+}
+.float_right{
+    float: right !important;
+}
+.float_left{
+    float: left !important;
+}
+.pb_2{
+    margin-bottom: 20px;
+}
+.spacing{
+    margin-right: 20px;
+}
+.badge{
+    position: absolute;
+    color: black;
+    right: 97px;
+    top: 20px;
+    padding: 3px 3px;
+    border-radius: 50%;
+    color: red;
+}
+.item{
+    border-radius: 10%;
+    -webkit-box-shadow: 10px 10px 23px -6px rgba(191,187,187,1);
+    -moz-box-shadow: 10px 10px 23px -6px rgba(191,187,187,1);
+    box-shadow: 10px 10px 23px -6px rgba(191,187,187,1);
+}
+.glass {
+  
+}
+.flag{
+    padding-left: 3px;
+}
+.avatar{
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.small_text{
+    padding-right: 7px;
+    font-size: 12px;
+}
+.box_shadow {
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+.body_container{
+    display: flex; 
+    width: 100%;
+}
+.sidebar{
+    height: 500px;
+    width: 90px;
+    border-radius: 10px;
+    font-size: 14px;
+    /* position: absolute; */
+}
+.text{
+    font-size: 16px;
+    font-weight: bold;
+    color: #133C59
+}
+.card{
+    border-radius: 10px;
+    text-align: center;
+    /* height: 150px; */
+}
+.text_blue{
+    color: #007FEB;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box{
+    margin: auto;
+}
+@media(max-width: 767px){
+    .card{
+        border-radius: 10px;
+        text-align: center;
+        max-width: 300px;
+        margin-bottom: 15px;
+    }
+}
+.upper_part{
+    background-image: url('../../assets/icons/main-photo.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    background-size: contain;
+}
+.text_lg{
+    font-size: 24px;
+    color: #133C59
+}
+.circle{
+    font-size: 10px;
+}
+.role{
+    padding-left: 5px;
+}
+.bullet{
+    padding-left: 10px;
+}
+.blue_bullet{
+    color: #007FEB;
+}
+.pt_6{
+    padding-top: 80px;
+}
+.inner{
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(153,153,190,1);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(153,153,190,1);
+    box-shadow: 0px 0px 10px -1px rgba(153,153,190,1);
+    height: 54px;
+}
+.outer{
+  background:
+    radial-gradient(
+      ellipse at 16.7% -10%,
+      hsla(0, 0%, 100%, 0.44) 24%,
+      hsla(0, 0%, 100%, 0.4) 25%,
+      hsla(0, 0%, 100%, 0.2) 45%,
+      hsla(0, 0%, 100%, 0.1)
+    );
+  background-size: 300% 100%;
+  border-radius: 10px;
+  box-shadow:
+    0 4px 1px hsla(0, 0%, 100%, 0.5) inset,
+    0 4px 1px hsla(0, 0%, 100%, 0.5) inset,
+    0 4px 6px hsla(0, 0%, 100%, 0.25);
+    
+}
+.searchIcon{
+    color: #007FEB;
+    padding-right: 10px;
+}
+.search{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    outline: #007FEB;
+}
+.selectSearch{
+    width: 100%;
+    transform: translate(0px,-10px);
+    /* cursor: text!important; */
+}
+.connectors{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+@media(max-width: 576px){
+    .sidebar{
+        height: 500px;
+        width: 70px;
+        border-radius: 10px;
+        font-size: 12px;
+        position: absolute;
+    }
+}
+.bell{
+    padding-left: 1.5px;
+}
+.hidden{
+    display: none
+}
+.red{
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #F0716A!important;
+}
+.fool{
+    padding-bottom: 40px;
+}
+.pad{
+    padding: 0px 48px;
+}
+@media(max-width: 576px){
+    .pad{
+        padding: 0px 8px;
+    }
+}
+.red{
+    background-color: #F37168;
+    /* border-radius: 30px; */
+    text-transform: unset!important;
+    font-size: 14px;
+    height: 28px;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+.red:hover{
+    background-color: #b83e35;
+}
+.red:focus{
+    background-color: #F37168!important;
+}
+.blue{
+    background-color: #007FEB;
+    /* border-radius: 30px; */
+    text-transform: unset!important;
+    font-size: 14px;
+    height: 28px;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+.advisor{
+    cursor: pointer;
+}
+.advisor:hover{
+    text-decoration: underline;
+}
